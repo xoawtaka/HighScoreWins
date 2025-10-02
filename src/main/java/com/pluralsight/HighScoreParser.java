@@ -8,9 +8,9 @@ public class HighScoreParser {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Please enter the game score.%n" +
-                "Utilize this format:%n" +
-                "(Team1:Team2|Team1Score:Team2Score)");
+        System.out.printf("Enter the game score.%n" +
+                "Please utilize this format:%n" +
+                "(Team1:Team2|Team1Score:Team2Score): ");
         String gameScore = input.nextLine();
 
         //game score for each team
